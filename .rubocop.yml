@@ -1,0 +1,9 @@
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: enable
+  Exclude:
+    - 'bin/*'
+    - 'vendor/bundle/**/*'
+
+Layout/LineLength:
+  Max: 80
